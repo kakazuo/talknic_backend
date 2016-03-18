@@ -143,12 +143,12 @@ class ApiAction extends BaseAction{
 						if($_FILES['file']['size'] > 0) {
 							$ext = pathinfo($_FILES['file']['name'],PATHINFO_EXTENSION);
 							if(in_array($ext,array('png','jpg','jpeg','bmp'))) {
-								$new_name = $this->make_uniqid($ext,$_SERVER['HTTP_HOST']."/Talknic1.0/data/uploads/");
+								$new_name = $this->make_uniqid($ext,$_SERVER['HTTP_HOST']."/data/uploads/");
 								$res = move_uploaded_file($_FILES['file']['tmp_name'],SITE_PATH.'/data/uploads/'.$new_name);
 								if($_FILES["file"]["size"] < 1){
 									$user_pic = 'no_pic';
 								}else{
-									$user_pic = 'http://'.$_SERVER['HTTP_HOST'].'/Talknic1.0/data/upload/'.$new_name;
+									$user_pic = 'http://'.$_SERVER['HTTP_HOST'].'/data/upload/'.$new_name;
 								}
 							}
 						}

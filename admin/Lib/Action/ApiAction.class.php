@@ -212,13 +212,13 @@ class ApiAction extends Action{
 						if($_FILES['file']['size'] > 0) {
 							$ext = pathinfo($_FILES['file']['name'],PATHINFO_EXTENSION);
 							if(in_array($ext,array('png','jpg','jpeg','bmp'))) {
-								$new_name = $this->make_uniqid($ext,$_SERVER['HTTP_HOST']."/Talknic1.0/data/uploads/");
+								$new_name = $this->make_uniqid($ext,$_SERVER['HTTP_HOST']."/data/uploads/");
 								$res = move_uploaded_file($_FILES['file']['tmp_name'],'./data/uploads/'.$new_name);
 								if($res){
 									if($_FILES["file"]["size"] < 1){
 										$user_pic = 'no_pic';
 									}else{
-										$user_pic = 'http://'.$_SERVER['HTTP_HOST'].'/Talknic1.0/data/uploads/'.$new_name;
+										$user_pic = 'http://'.$_SERVER['HTTP_HOST'].'/data/uploads/'.$new_name;
 									}
 									$data = array('user_pic'=>$user_pic);
 									$res = M('user')->where('user_id='.$_REQUEST['user_id'])->save($data);
@@ -325,7 +325,7 @@ class ApiAction extends Action{
 				}
 				foreach ($res as $key => $value) {
 					if($res[$key]['user_pic'] == 'user.png'){
-						$res[$key]['user_pic'] = 'http://'.$_SERVER['HTTP_HOST'].'/Talknic1.0/data/uploads/'.$res[$key]['user_pic'];
+						$res[$key]['user_pic'] = 'http://'.$_SERVER['HTTP_HOST'].'/data/uploads/'.$res[$key]['user_pic'];
 					}else{
 						$res[$key]['user_pic'] = $res[$key]['user_pic'];
 					}
@@ -366,7 +366,7 @@ class ApiAction extends Action{
 				->select();
 				//echo M("match_condition")->getLastSql();
 				foreach ($res as $key => $value) {
-					$res[$key]['user_pic'] = 'http://'.$_SERVER['HTTP_HOST'].'/Talknic1.0/data/uploads/'.$res[$key]['user_pic'];
+					$res[$key]['user_pic'] = 'http://'.$_SERVER['HTTP_HOST'].'/data/uploads/'.$res[$key]['user_pic'];
 				}
 				if($res) {
 					// $res['RMB'] = $res['time']*1.5;
