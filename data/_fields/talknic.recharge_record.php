@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'recharge_id', 1 => 'user_id', 2 => 'recharge_type', 3 => 'recharge_money', 4 => 'recharge_time', '_autoinc' => true, '_pk' => 'recharge_id', '_type' => array ( 'recharge_id' => 'int(10) unsigned', 'user_id' => 'int(11)', 'recharge_type' => 'varchar(30)', 'recharge_money' => 'varchar(30)', 'recharge_time' => 'varchar(30)', ), );?>

@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'condition_id', 1 => 'condition_time', 2 => 'condition_topic', 3 => 'user_id', '_autoinc' => true, '_pk' => 'condition_id', '_type' => array ( 'condition_id' => 'int(10) unsigned', 'condition_time' => 'char(40)', 'condition_topic' => 'text', 'user_id' => 'int(11)', ), );?>

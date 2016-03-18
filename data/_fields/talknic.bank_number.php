@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'user_id', 1 => 'bank_number', 2 => 'holder_name', 3 => 'validity', 4 => 'ccv', '_autoinc' => false, '_type' => array ( 'user_id' => 'int(11)', 'bank_number' => 'char(20)', 'holder_name' => 'varchar(20)', 'validity' => 'varchar(20)', 'ccv' => 'int(11)', ), );?>

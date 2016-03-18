@@ -1,0 +1,98 @@
+[ 2015-12-16T12:34:29+08:00 ] 127.0.0.1 /talknic1.0/install.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005708s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004753s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page C:\PHPnow\htdocs\talknic1.0\install\Runtime\Cache\4798d0b9ed82ed1b8ddbb5eadf029e70.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.038718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039028s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002628s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002867s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002482s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011375s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003913s ]
+
+[ 2015-12-16T12:34:35+08:00 ] 127.0.0.1 /talknic1.0/install.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003314s ]
+
+[ 2015-12-16T12:34:35+08:00 ] 127.0.0.1 /talknic1.0/install.php/Index/setconf
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007020s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004034s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004189s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005054s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page C:\PHPnow\htdocs\talknic1.0\install\Runtime\Cache\34a1957c35c3f2c42e846e353dbc494c.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.057205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057783s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003869s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003111s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003572s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015305s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004956s ]
+
+[ 2015-12-16T12:35:05+08:00 ] 127.0.0.1 /talknic1.0/install.php/Index/install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003214s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002121s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002534s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page C:\PHPnow\htdocs\talknic1.0\install\Runtime\Cache\ab7884c033bbedb63f0f0c241667f862.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.027795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028043s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000970s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000916s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001313s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005360s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002126s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002348s ]
+
+[ 2015-12-16T12:35:08+08:00 ] 127.0.0.1 /talknic1.0/install.php/Index/finish
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004149s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004118s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004443s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page C:\PHPnow\htdocs\talknic1.0\install\Runtime\Cache\826ee824163f752f09d8a8fa3d4542b4.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.075525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075782s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001746s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001576s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009465s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002581s ]
+

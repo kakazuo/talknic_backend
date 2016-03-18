@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'voucher_id', 1 => 'user_id', 2 => 'voucher_price', 3 => 'voucher_pic', '_autoinc' => false, '_pk' => 'voucher_id', '_type' => array ( 'voucher_id' => 'int(10)', 'user_id' => 'int(10)', 'voucher_price' => 'char(20)', 'voucher_pic' => 'char(255)', ), );?>

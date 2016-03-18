@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'order_id', 1 => 'user_student_id', 2 => 'user_teacher_id', 3 => 'order_price', 4 => 'time', '_autoinc' => true, '_pk' => 'order_id', '_type' => array ( 'order_id' => 'int(10) unsigned', 'user_student_id' => 'int(11)', 'user_teacher_id' => 'int(11)', 'order_price' => 'char(20)', 'time' => 'varchar(30)', ), );?>
